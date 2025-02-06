@@ -33,6 +33,6 @@ Creating backup file...
 tar: data/: file changed as we read it
 tar: Exiting with failure status due to previous errors
 Backup complete. Backup file is located in /home/user/backup with filename: data_10_01_2022.tar.gz
-
-## Notes
+```
+## Notes:
 Ensure you have the necessary permissions to read the folder you wish to back up and to write the backup file to the specified storage location.
