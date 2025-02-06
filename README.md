@@ -11,17 +11,19 @@ This script is used to create a backup of a specified folder on a Linux/Unix sys
 - Terminal access with appropriate permissions
 
 ## Usage
-1. Save the script in a file with an `.sh` extension, e.g., `backup_folder.sh`.
-2. Grant execute permissions to the script using the following command:
+1. Save the script in a file with an `.sh` extension, e.g., `backup.sh`, or you can clone this repo
    ```bash
-   chmod +x backup_folder.sh
-3. Run the script with the following command:
-4. Follow the on-screen instructions to specify the folder to back up and the backup storage location.
-5. The script will create a tar.gz file from the selected folder and save it in the specified location.
+   git clone https://github.com/0xdkcvd/automated-backup
+3. Grant execute permissions to the script using the following command:
+   ```bash
+   chmod +x backup.sh
+4. Run the script with the following command:
+5. Follow the on-screen instructions to specify the folder to back up and the backup storage location.
+6. The script will create a tar.gz file from the selected folder and save it in the specified location.
 
 ## Example Usage
 ```bash
-$ ./backup_folder.sh
+$ ./backup.sh
 Which folder path do you want to backup? (e.g., /home/user/folder): /home/user/data
 Contents of folder: /home/user/data
 total 0
